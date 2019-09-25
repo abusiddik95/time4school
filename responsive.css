@@ -1,0 +1,86 @@
+/* Default layout. */
+.header-area .header{
+	min-height: 50px;
+}
+.slicknav_menu{display:none;}
+#menu{display:block;} 
+.header-bottom-area .header-bottom .search-area{
+    margin: 35px 10px;
+}
+.header-bottom-area .header-bottom .logo-area {
+	margin:30px 10px;
+}
+.slider-area #edu-slider .item .edu-text{
+    padding: 20px;
+    margin-left: 30px;
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.header-area .header{
+	min-height: 50px;
+}
+.slicknav_menu{display:none;}
+#menu{display:block;} 
+.header-bottom-area .header-bottom .search-area{
+    margin: 35px 10px;
+}
+.header-bottom-area .header-bottom .logo-area {
+	margin:30px 10px;
+}
+.slider-area #edu-slider .item .edu-text{
+    padding: 20px;
+    margin-left: 30px;
+}
+
+
+
+
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+.header-area .header{
+	min-height: 70px;
+}
+.header-area .login-area{display:inline-block;}
+.slicknav_menu{display:block;background:#313C42;}
+#menu{display:none;} 
+.header-bottom-area .header-bottom .search-area{
+    margin: 15px 10px;
+}
+.header-bottom-area .header-bottom .logo-area {
+	margin:0px 30px;
+}
+.slider-area #edu-slider .item .edu-text{
+    padding: 0px;
+    margin-left: 0px;
+}
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.header-area .header{
+	min-height: 70px;
+}
+.header-area .login-area{display:inline-block;}
+.slicknav_menu{display:block;background:#313C42;}
+#menu{display:none;} 
+.header-bottom-area .header-bottom .search-area{
+    margin: 15px 10px;
+}
+.header-bottom-area .header-bottom .logo-area {
+	margin:0px 45px;
+}
+.slider-area #edu-slider .item .edu-text{
+    padding: 2px;
+    margin-left: 5px;
+}
+}
